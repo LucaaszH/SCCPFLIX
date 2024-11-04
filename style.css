@@ -1,0 +1,57 @@
+body {
+    color:white;
+    background:rgb(7, 7, 7);
+    margin: 0px;
+    font-family: "Rubik", sans-serif;
+}
+
+header {
+    border-bottom: solid 5px rgba(150, 20, 20);
+    padding: 20px;
+    font-size: 35px;
+    color: rgb(150, 20, 20);
+}
+
+.Principal {
+    background: rgb(13, 13, 13);
+    padding-bottom: 30px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.TextVideo{
+    margin-right: 5%;
+}
+
+.Videos {
+    display: flex;
+    gap: 10px;
+}
+
+.OutrosVideos {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Videos img {
+    opacity: 0.6;
+    height: 140px;
+}
+
+.Videos img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(150, 20, 20);
+}
+
+.OutrosVideos h2 {
+    color: rgb(150, 20, 20);
+}
